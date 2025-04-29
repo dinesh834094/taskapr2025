@@ -1,0 +1,75 @@
+my_list = [10, 20, 30, 40, 50]
+print(my_list[1:4])
+
+my_list = [10, 20, 30, 40, 50, 11]
+print(my_list[::-1])
+
+list1 = [1, 2, 3, 4, 5]
+list2 = [4, 5, 6, 7, 8]
+result= list(set(list1) &set(list2))
+print(result)
+
+original_list = [1, 2, 2, 3, 4, 4, 5]
+unique_list= list(set(original_list))
+print(unique_list)
+
+duplicated_list = [1, 2, 2, 3, 4, 4, 5]
+unique_list= list(set(duplicated_list))
+print(unique_list)
+
+original_list = [1, 2, 2, 3, 4, 4, 5]
+duplicated_list = [1, 2, 2, 3, 4, 4, 5]
+sum= (original_list ) +(duplicated_list)
+print(sum)
+
+original_list = [1, 2, 2, 3, 4, 4, 5]
+print(original_list*3)
+
+# Write a Python script that removes the elements at even indices from a list.
+
+original_list = [1, 2, 2, 3, 4, 4, 5]
+for i in range(len(original_list)):
+    if i%2!=0:
+        print(i)
+
+original_list = [1, 2, 2, 3, 4, 4, 5]
+next_list=[10,11,12]
+sum= next_list+original_list
+print(sum)
+#Square Numbers Create a list of squares of numbers from 1 to 10
+
+sum=0
+numbers=[1,2,3,4,5,6,7,8,9,10]
+for i in numbers:
+    sum=i**2
+    print(sum)
+
+#  Even Numbers Generate a list of even numbers from 1 to 20.
+
+numbers=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+for i in numbers:
+    if i%2==0:
+        print(i)
+
+words = ["apple", "banana", "cherry", "date"]
+for i in words:
+    print(len(i))
+
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+

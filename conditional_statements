@@ -1,0 +1,93 @@
+'''x = 10
+if x > 5:
+    print("Greater than 5")
+else:
+    print("5 or less")'''
+
+'''age=int(input('enter age'))
+if age >=0 and age<=12:
+    print(f'the{age}is consider as child')
+elif age >= 13 and age<=17:
+    print(f'the{age}is consider as teen')
+elif age>= 18 and age<=64:
+    print(f'the{age}is consider as teen')
+else:
+    print(f'the {age} is considered as senior ')'''
+
+'''number = int(input('enter number'))
+if number >=0:
+    print('positive')
+elif number <=0:
+    print('negative')
+else:
+    print('zero')'''
+'''year = int(input('enter number'))
+if year %4==0 and year%100 != 0:
+    print(f'the {year} is leap year ')
+else:
+    print('not leap year')'''
+'''number1=int(input('enter number'))
+number2= int(input('enter number'))
+operator= (input('enter operator'))
+if operator=='+':
+    print(number1+number2)'''
+'''x=8
+print('even') if x%2==0 else print('odd')'''
+
+'''originalprice= int(input('enter number'))
+discountper= int(input('enter number'))
+finalprice=originalprice-discountper
+print(finalprice)'''
+
+'''weight= int(input('enter number'))
+height= int(input('enter number'))
+bmi= weight/(height)**2
+print(bmi)'''
+
+'''character= input('enter characters')
+if character in ['a','e','i','o','u']:
+    print(f'the entered {character} is vowel')
+else:
+    print('not vowel')'''
+'''age = int(input('enter number'))
+if age >=0 and age<=12:
+    print(f'the {age} is considered as child')
+if age>13 and age <=17:
+    print('teens')'''
+
+'''a= int(input('enter number'))
+if a%2==0:
+    print('not prime')
+else:
+    print('prime')'''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+'''Child: 0-12 years
+Teenager: 13-17 years
+Adult: 18-64 years
+Senior: 65 years and older'''
+
+
+
+
+
+
+
+
+
+
+

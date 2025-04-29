@@ -1,0 +1,67 @@
+'''a = ['break', 'skip', 'ok', 'apple', 'break', 'skip']
+for i in a:
+    if i=='break':
+        break
+    elif i=='skip':
+
+        continue
+    else:
+        print(i)'''
+'''sum=0
+numbers = [25, 30, 20, 40, 15, 25]
+for i in numbers:
+    sum+=i
+   
+    if sum<100:
+        print(sum)
+    else:
+        print('sum exceeds100')
+        break'''
+ # Write a Python script that uses a for loop to iterate through numbers from 1 to 
+#600. Print only the odd numbers, skipping the even ones using the 
+#statement
+
+'''for i in range(1,601):
+    if i%2==0:
+        continue
+    print(i)'''
+'''Write a Python script that checks if a number is even or odd. If the number is 
+even, print "Even"; if odd, do nothing (use the 
+pass statement).'''
+
+'''number= int(input('enter number'))
+if number%2==0:
+    #print('even')
+else:
+    pass'''
+dinesh=['dinesh','reddy','Break','skip']
+for i in dinesh:
+    if i=='Break':
+        break
+    elif i=='skip':
+        continue
+    else:
+        print(i)
+
+
+    
+ 
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+   
+       
+
+
+
